@@ -23,6 +23,7 @@ header, footer {
 
 .meuHeader {
   background-color: black;
+  margin-top: 15px;
 }
 
 .logo {
@@ -31,6 +32,39 @@ header, footer {
   background-color: #660033;
   border-radius: 20px;
   padding: 10px;
+}
+
+.separator {
+  width: 100%;
+  height: 1px;
+  background-color: #fff;
+}
+
+.options {
+  flex-direction: row;
+  margin: 0;
+}
+
+.options * {
+  list-style-type: none;
+  margin: 5px;
+  padding: 5px;
+}
+
+.options *:hover {
+  border-radius: 20px;
+  background-color: #fff;
+  color: #000;
+}
+
+.barSearch {
+  padding: 5px 10px;
+  background-color: #fff;
+  border-radius: 20px;
+}
+
+.barSearch * {
+  border: none;
 }
 
 .meuFooter {
