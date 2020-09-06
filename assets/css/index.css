@@ -1,0 +1,24 @@
+/* BANNERS */
+.carousel {
+  height: 300px;
+}
+
+.banners-carousel {
+  background-color: #fff;
+  width: 95%;
+  max-width: 1200px;
+  height: 250px;
+  
+}
+
+/* LIST PRODUCTS *
+/* .products {
+
+} */
+
+.header-products  {
+  color: #fff;
+  background-color: #000;
+  text-align: center;
+  border-radius: 15px;
+}

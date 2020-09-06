@@ -18,9 +18,9 @@ header, footer {
   border-radius: 20px;
   box-sizing: border-box;
   overflow: auto;
-  text-align: center;
 }
 
+/* HEADER */
 .meuHeader {
   background-color: black;
   margin-top: 15px;
@@ -40,38 +40,53 @@ header, footer {
   background-color: #fff;
 }
 
+/* NAVBAR */
 .options {
   flex-direction: row;
   margin: 0;
 }
 
-.options * {
+.options>div {
   list-style-type: none;
   margin: 5px;
   padding: 5px;
 }
 
-.options *:hover {
-  border-radius: 20px;
+.options>div:hover {
+  border-radius: 15px;
   background-color: #fff;
   color: #000;
 }
 
+/* SEARCH */
 .barSearch {
   padding: 5px 10px;
+  margin: auto;
   background-color: #fff;
   border-radius: 20px;
+  max-width: 300px;
 }
 
 .barSearch * {
   border: none;
+  width: 100%;
 }
 
+/* FOOTER */
 .meuFooter {
-  text-align: left  ;
   justify-content: space-around;
 }
 
 .meuFooter *, .copyright {
+  text-align: center;
   margin: 0;
+}
+
+/* MEDIA QUERRY PARA RESPONSIVIDADE */
+@media screen and (max-width: 420px) {
+
+  .options {
+    flex-direction: column;
+  }
+
 }
