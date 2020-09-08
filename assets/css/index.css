@@ -11,14 +11,45 @@
   
 }
 
-/* LIST PRODUCTS *
-/* .products {
-
-} */
+/* LIST PRODUCTS */
+.products, .product {
+  margin-bottom: 20px;
+}
 
 .header-products  {
   color: #fff;
   background-color: #000;
   text-align: center;
   border-radius: 15px;
+}
+
+.product {
+  flex-direction: column;
+}
+
+.image-product *{
+  max-height: 140px;
+}
+
+.header-product {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.buy-product {
+  padding: 2px 10px;
+  color: white;
+  background-color: green;
+  border: none;
+  border-radius: 20px;
+}
+
+.buy-product:hover {
+  color: green;
+  background-color: #fff;
+}
+
+.price-line {
+  text-decoration: line-through;
+  color: #585858;
 }
