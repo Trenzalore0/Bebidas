@@ -12,9 +12,9 @@
 }
 
 /* LIST PRODUCTS */
-.products, .product {
-  margin-bottom: 20px;
-}
+/* .products {
+  
+} */
 
 .header-products  {
   color: #fff;
@@ -25,6 +25,7 @@
 
 .product {
   flex-direction: column;
+  margin-bottom: 20px;
 }
 
 .image-product *{
