@@ -1,0 +1,42 @@
+.fundo{
+  width: 100%;
+  height: 600px;
+  background-color: rgb(175, 170, 170);
+}
+
+.cima{
+  width: 100%;
+  height: 400px;
+  background-color:#fff;
+  display: block;
+  position: absolute;
+  display: flex;
+  margin-top: 80px;
+  margin-left: 30px;
+  border-radius: 10px;
+}
+.cima1{
+  width: 280px;
+  height: 400px;
+  background-color:#fff;
+  display: block;
+  position: absolute;
+  display: flex;
+  margin-top: 80px;
+  margin-left: 376px;
+  border-radius: 10px;
+
+}
+.cima2{
+  width: 280px;
+  height: 400px;
+  background-color:#fff;
+  display: block;
+  position: absolute;
+  display: flex;
+  margin-top: 80px;
+  margin-left: 745px;
+  border-radius: 10px;
+
+}
+
