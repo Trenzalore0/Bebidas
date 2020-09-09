@@ -11,39 +11,44 @@
     <header>
 
     </header>
-    
-    <form>
-    <article>
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <section class="fundo">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-3">
-                                    <section class="cima"> 
-                                        <h4>Endereço de Entrega</h4>   
-                                        
-                                        
-
-                                    </section>
-                                <div class="col-3">
-                                    <section class="cima1"> <h4>Modo de pagamento</h4>  </section>
-                                </div>
-                                <div class="col-3">
-                                    <section class="cima2"><h4>Confirmar Dados </h4> </section>
-                                   
-                                </div>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-                </div>
-            </div>
+   
+        <div class="flex-container">
+          <div class="ede"><h3>Endereço de Entrega</h3>             
+           <input type="radio" class="red"/> <input type="text-area" style="text-justify: auto; width: 300px ; height: 100px ; border-radius: 10px" placeholder= "Endereço cadastrado no sistema" aria-label="Checkbox for following text input">
+           <br>
+           <br>
+           <button type="button" class="btn btn-link"><a href="#">Entregar em outro endereço</a></button>
         </div>
-    </article>
-</form>
-
+          <div class="modopg"><h3>Forma de pagamento</h3>
+           <input type="radio" class="radio" aria-label="Radio button for following text input"> <label>Boleto</label>
+           <br>
+           <input type="radio" class="radio2" aria-label="Radio button for following text input"> <label>Cartão de crédito</label>
+           <br>
+           <img src="../images/visa.png" width="40px" height="40px"/>
+           <img src="../images/master.png" width="40px" height="40px"/>
+        </div>
+          
+          <div><h3>Confirmar Dados</h3>
+            <label>Entrega:</label>
+            <input type="text-area" style="width: 300px; height: 80px; border-radius: 10px;" placeholder="Endereço cadastrado para entrega" >
+            <br> 
+            <br>  
+            <label>Forma de pagamento:</label>
+            <input type="text-area" style="width: 300px; height: 50px; border-radius: 10px;" placeholder="Cartão/Boleto">
+            <br> 
+            <br>  
+            <label>Valor Frete:</label>
+            <input type="text-area"  style="border-radius: 10px; width: 100px; " placeholder="R$ 000,00">
+            <br>
+            <label>Valor Total:</label>
+            <input type="text-area"  style="border-radius: 10px; width: 100px; " placeholder="R$ 000,00">
+            <br>
+            <br>
+            <button type="button" class="btn btn-success btcc">Continuar Comprando</button>
+            <button type="button" class="btn btn-success">Finalizar Compra</button>
+        </div>  
+            
+        </div>
 
 
 
