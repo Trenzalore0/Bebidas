@@ -7,3 +7,37 @@ header, footer {
     width: 100%;
     height: 50px;
 }
+.dropdown:hover>.dropdown-menu {
+    display: block;
+  }
+
+.dropdown-item{
+    background-color: #3a4147;
+    color: white;
+}
+
+.dropdown-menu{
+    background-color: #3a4147;
+}
+
+#barraNav{
+    position: fixed;
+    width: 100%;
+}
+
+#botao_tela_menor{
+    width: 20%;
+}
+
+@media (max-width:991px){
+    #barraNav{
+        display: none;
+    }
+    #botao_tela_menor{
+        background-color: #3a4147;
+        color: white;
+        display: inline-block;
+        position: fixed;
+        
+    }
+}
