@@ -27,6 +27,7 @@ header, footer {
 
 #botao_tela_menor{
     width: 20%;
+    display: none;
 }
 
 @media (max-width:991px){
