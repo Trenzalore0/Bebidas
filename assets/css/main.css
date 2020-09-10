@@ -1,0 +1,9 @@
+body {
+    background-color: #3d3c3c;
+}
+
+header, footer {
+    background-color: #660033;
+    width: 100%;
+    height: 50px;
+}
