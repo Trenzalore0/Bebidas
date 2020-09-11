@@ -2,14 +2,12 @@ section{
     /* margin-top: 100px; */
     margin-bottom: 100px;
     /* margin-left: 40px; */
-
 }
 article{
     margin-left: 100px;
     margin-top: 60px;
     width: 65%;
     color: white;
-
 }
 
 .card{
@@ -27,12 +25,12 @@ strike{
 }
 #comprar{
     float: right;
-    
-    
 }
+
 #botao{
     border-radius: 20px;
 }
+
 #sectionproduto{
     margin-top: 100px;
     margin-left: 40px;

@@ -3,7 +3,6 @@
     margin-top: 20px;
     margin-bottom: 20px;
     height: 500px;
-    color: red;
 }
 
 #topo{
@@ -16,10 +15,10 @@
     overflow: auto;
     height: 330px;
 }
+
 #base{
     background-color: #660033;
     height: 70px;
-
 }
 
 .card{
@@ -30,5 +29,4 @@
 #nomeProduto{
     text-align: center;
     margin-top: 20px;
- 
 }
