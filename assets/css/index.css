@@ -12,9 +12,6 @@
 }
 
 /* LIST PRODUCTS */
-/* .products {
-  
-} */
 
 .header-products  {
   color: #fff;
@@ -33,6 +30,7 @@
 }
 
 .header-product {
+  color: white;
   font-size: 20px;
   font-weight: bold;
 }
@@ -53,4 +51,8 @@
 .price-line {
   text-decoration: line-through;
   color: #585858;
+}
+
+.price-product{
+  color: white;
 }
