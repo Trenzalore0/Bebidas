@@ -1,9 +1,110 @@
 body {
-    background-color: #3d3c3c;;
+    background-color: #3d3c3c;
+}
+
+h1 {
+    margin: 0;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 header, footer {
+    color: white;
     background-color: #660033;
+    box-sizing: border-box;
+    overflow: auto;
     width: 100%;
+}
+
+/* HEADER */
+.meuHeader {
+    background-color: black;
+}
+
+.logo {
+    width: 100%;
+    margin: 0;
+    background-color: #660033;
+    padding: 10px;
+    border-bottom: 1px solid #fff;
+}
+
+.logotipo{
+    width: 300px;
     height: 50px;
+    background-image: url(../img/desvinho_logo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 70%;
+
+}
+
+.separator {
+    width: 100%;
+    height: 1px;
+    background-color: #fff;
+}
+
+
+/* FOOTER */
+.meuFooter {
+    justify-content: space-around;
+}
+
+.meuFooter *,
+.copyright {
+    text-align: center;
+    margin: 0;
+}
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+    position: absolute;
+    z-index: 9000;
+}
+
+.dropdown-item {
+    background-color: #3a4147;
+    color: white;
+}
+
+.dropdown-menu {
+    background-color: #3a4147;
+    position: relative;
+}
+
+#barraNav {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+#botao_tela_menor {
+    width: 20%;
+    display: none;
+}
+
+.lupa_icon{
+    background-image: url(../img/lupa_icon.png);
+    background-size: 400%;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 50px;
+    height: 50px;
+}
+
+@media (max-width:991px) {
+    #barraNav {
+        display: none;
+    }
+    #botao_tela_menor {
+        background-color: #3a4147;
+        color: white;
+        display: inline-block;
+        position: fixed;
+    }
 }
