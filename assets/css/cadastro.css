@@ -6,9 +6,8 @@ h1{
     background-color: #660033;
     color: #ffffff;
     border-radius: 20px;
-    margin-left: 50%;
-
-}
+    max-width: 300px;
+ }
 
 #formulario{
     border-radius: 30px;
