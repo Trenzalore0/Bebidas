@@ -26,6 +26,7 @@ header, footer {
 #barraNav{
     position: fixed;
     width: 100%;
+    z-index: 1;
 }
 
 #botao_tela_menor{
