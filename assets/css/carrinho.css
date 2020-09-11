@@ -3,15 +3,14 @@
     margin-top: 70px;
     margin-bottom: 20px;
     height: 500px;
-<<<<<<< HEAD
-       
-=======
->>>>>>> 8b8d4d087045e58ac2c7dba8053f2acdbcde950e
+    border-radius: 20px;
 }
 
 #topo{
     background-color: #660033;
     color: #fff;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
 
 #carrinho{
@@ -23,6 +22,8 @@
 #base{
     background-color: #660033;
     height: 70px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
 
 .card{
@@ -33,4 +34,8 @@
 #nomeProduto{
     text-align: center;
     margin-top: 20px;
+}
+
+#botao{
+    border-radius: 20px;
 }
