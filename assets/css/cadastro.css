@@ -1,0 +1,36 @@
+h1{
+    color: #ffffff;
+}
+
+#teste-botao {
+    background-color: #660033;
+    color: #ffffff;
+    border-radius: 20px;
+    max-width: 300px;
+ }
+
+#formulario{
+    border-radius: 30px;
+    background-color:rgba(219, 212, 212, 0.589);
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+#container1, #container2{
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-sizing: border-box;
+    margin: 10px;
+    }
+
+.form-control{
+        border-radius: 20px;
+}
+#container1{
+    margin-left: 16%;
+}
+
+.container{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
