@@ -1,5 +1,7 @@
 body {
-    background-color: grey;
+
+    background-color: #3d3c3c;
+
 }
 
 header, footer {
@@ -9,6 +11,8 @@ header, footer {
 }
 .dropdown:hover>.dropdown-menu {
     display: block;
+    position: absolute;
+    z-index: 9000;
   }
 
 .dropdown-item{
