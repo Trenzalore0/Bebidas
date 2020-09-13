@@ -74,71 +74,55 @@
         <span class="navbar-toggler-icon">Menu</span>
     </button>
 
-
+    <!-- CARRINHO -->
     <div class="container" id="container">
         <div class="row">
             <div class="col-lg-12">
-                <center>
-                    <h2>Carrinho</h2>
-                </center>
+                <h2 class="center">Carrinho</h2>
                 <div class="container" id="topo">
                     <div class="row">
                         <div class="col-lg-12">
                             <div class="row">
                                 <div class="col-lg-4">
-                                    <center>
-                                        <h4>Produto</h4>
-                                    </center>
+                                    <h4 class="center">Produto</h4>
                                 </div>
                                 <div class="col-lg-2">
-                                    <center>
-                                        <h4>Valor Unitario</h4>
-                                    </center>
+                                    <h4 class="center">Vlr Unidade</h4>
                                 </div>
                                 <div class="col-lg-2">
-                                    <center>
-                                        <h4>Quantidade</h4>
-                                    </center>
+                                    <h4 class="center">Quantidade</h4>
                                 </div>
                                 <div class="col-lg-2">
-                                    <center>
-                                        <h4>Subtotal</h4>
-                                    </center>
+                                    <h4 class="center">Subtotal</h4>
                                 </div>
                                 <div class="col-lg-2">
-                                    <center>
-                                        <h4>Remover</h4>
-                                    </center>
+                                    <h4 class="center">Remover</h4>
                                 </div>
                             </div>
-
-
                         </div>
-
                     </div>
                 </div>
                 <div class="container" id="carrinho">
                     <div class="row">
                         <div class="col-lg-12">
-
                             <br>
                             <div class="row">
-
                                 <div class="col-lg-1">
-                                    <div class="card">
+                                    <div class="card center">
                                         <div class="card-body">
-
+                                            <img class="imagem" src="../img/Chivas-carrinho.png">
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-lg-3" id="nomeProduto">
                                     <h5>Chivas Whisky 12 Anos</h5>
-
                                 </div>
-
-
-
                                 <div class="col-lg-2">
+                                    <br>
+                                    <input disabled class="valor-unit center" placeholder="R$ 90,99"></input>
+                                </div>
+                                <div class="col-lg-2">
+                                    <br>
                                     <div class="input-group">
                                         <span class="input-group-btn">
                                             <button type="button" class="quantity-left-minus btn btn-danger btn-number"
@@ -147,7 +131,7 @@
                                             </button>
                                         </span>
                                         <input type="text" id="quantity" name="quantity"
-                                            class="form-control input-number" value="10" min="1" max="100">
+                                            class="form-control input-number" value="1" min="1" max="100">
                                         <span class="input-group-btn">
                                             <button type="button" class="quantity-right-plus btn btn-success btn-number"
                                                 data-type="plus" data-field="">
@@ -156,54 +140,164 @@
                                         </span>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                    </div>
-                    <hr>
-                    <div class="row">
-
-                        <div class="col-lg-1">
-                            <div class="card">
-                                <div class="card-body">
+                                <div class="col-lg-2">
+                                    <br>
+                                    <input disabled class="valor-unit center" placeholder="R$ 90,99"></input>
                                 </div>
+                                <div class="col-lg-2 center">
+                                    <div class="custom-control custom-checkbox">
+                                        <input type="checkbox" class="custom-control-input" id="customCheck1">
+                                        <label class="custom-control-label" for="customCheck1">
+                                            
+                                        </label>
+                                    </div>
+                                      </div>
                             </div>
                         </div>
-
-                        <div class="col-lg-3" id="nomeProduto">
-                            <h5>Chivas Whisky 12 Anos</h5>
-
-                        </div>
+                        
                     </div>
                     <hr>
                     <div class="row">
-
                         <div class="col-lg-1">
-                            <div class="card">
+                            <div class="card center">
                                 <div class="card-body">
-                                   <img class="imagem" src="../img/Chivas-carrinho.png">
+                                    <img class="imagem" src="../img/Chivas-carrinho.png">
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-3" id="nomeProduto">
                             <h5>Chivas Whisky 12 Anos</h5>
-
                         </div>
+                        <div class="col-lg-2">
+                            <br>
+                            <input disabled class="valor-unit center" placeholder="R$ 90,99"></input>
+                        </div>
+                        <div class="col-lg-2">
+                            <br>
+                            <div class="input-group">
+                                <span class="input-group-btn">
+                                    <button type="button" class="quantity-left-minus btn btn-danger btn-number"
+                                        data-type="minus" data-field="">
+                                        <span class="glyphicon glyphicon-minus"></span>
+                                    </button>
+                                </span>
+                                <input type="text" id="quantity" name="quantity"
+                                    class="form-control input-number" value="2" min="1" max="100">
+                                <span class="input-group-btn">
+                                    <button type="button" class="quantity-right-plus btn btn-success btn-number"
+                                        data-type="plus" data-field="">
+                                        <span class="glyphicon glyphicon-plus"></span>
+                                    </button>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="col-lg-2">
+                            <br>
+                            <input disabled class="valor-unit center" placeholder="R$ 181,98"></input>
+                        </div>
+                        <div class="col-lg-2 center">
+                            <div class="custom-control custom-checkbox">
+                                <input type="checkbox" class="custom-control-input" id="customCheck2">
+                                <label class="custom-control-label" for="customCheck2"> 
+                                </label>
+                            </div>
+                              </div>
                     </div>
                     <hr>
                     <div class="row">
-
                         <div class="col-lg-1">
-                            <div class="card">
+                            <div class="card center">
                                 <div class="card-body">
+                                    <img class="imagem" src="../img/Chivas-carrinho.png">
                                 </div>
                             </div>
                         </div>
-
                         <div class="col-lg-3" id="nomeProduto">
-
                             <h5>Chivas Whisky 12 Anos</h5>
-
                         </div>
+                        <div class="col-lg-2">
+                            <br>
+                            <input disabled class="valor-unit center" placeholder="R$ 90,99"></input>
+                        </div>
+                        <div class="col-lg-2">
+                            <br>
+                            <div class="input-group">
+                                <span class="input-group-btn">
+                                    <button type="button" class="quantity-left-minus btn btn-danger btn-number"
+                                        data-type="minus" data-field="">
+                                        <span class="glyphicon glyphicon-minus"></span>
+                                    </button>
+                                </span>
+                                <input type="text" id="quantity" name="quantity"
+                                    class="form-control input-number" value="3" min="1" max="100">
+                                <span class="input-group-btn">
+                                    <button type="button" class="quantity-right-plus btn btn-success btn-number"
+                                        data-type="plus" data-field="">
+                                        <span class="glyphicon glyphicon-plus"></span>
+                                    </button>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="col-lg-2">
+                            <br>
+                            <input disabled class="valor-unit center" placeholder="R$ 272,97"></input>
+                        </div>
+                        <div class="col-lg-2 center">
+                            <div class="custom-control custom-checkbox">
+                                <input type="checkbox" class="custom-control-input" id="customCheck3">
+                                <label class="custom-control-label" for="customCheck3">
+                                    
+                                </label>
+                            </div>
+                              </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-lg-1">
+                            <div class="card center">
+                                <div class="card-body">
+                                    <img class="imagem" src="../img/Chivas-carrinho.png">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3" id="nomeProduto">
+                            <h5>Chivas Whisky 12 Anos</h5>
+                        </div>
+                        <div class="col-lg-2">
+                            <br>
+                            <input disabled class="valor-unit center" placeholder="R$ 90,99"></input>
+                        </div>
+                        <div class="col-lg-2">
+                            <br>
+                            <div class="input-group">
+                                <span class="input-group-btn">
+                                    <button type="button" class="quantity-left-minus btn btn-danger btn-number"
+                                        data-type="minus" data-field="">
+                                        <span class="glyphicon glyphicon-minus"></span>
+                                    </button>
+                                </span>
+                                <input type="text" id="quantity" name="quantity"
+                                    class="form-control input-number" value="4" min="1" max="100">
+                                <span class="input-group-btn">
+                                    <button type="button" class="quantity-right-plus btn btn-success btn-number"
+                                        data-type="plus" data-field="">
+                                        <span class="glyphicon glyphicon-plus"></span>
+                                    </button>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="col-lg-2">
+                            <br>
+                            <input disabled class="valor-unit"  placeholder="R$ 363,96"></input>
+                        </div>
+                        <div class="col-lg-2 center">
+                        <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="customCheck4">
+                            <label class="custom-control-label" for="customCheck4">
+                                
+                            </label>
+                        </div>
+                          </div>
                     </div>
                     <hr>
                 </div>
@@ -212,32 +306,24 @@
         <div class="container" id="base">
             <div class="row">
                 <div class="col-lg-12">
-                    <h6 style="color: #fff;">Valor Total</h6>
-                    
+                    <label style="color: white;">Valor Total
+                        <input class="valortotal" disabled placeholder="R$ 00,00"></input>
+                    </label>
                     <div class="row">
-                        <div class="col-lg-9">
-
-                            <input disabled placeholder="R$ 00,00"></input>
+                        <div class="col-lg-1" id="voltar">
+                            <a href="index.html"><button type="button" class="btn btn-secondary" id="botao">Voltar</button></a>
                         </div>
-                        <div class="col-lg-3">
-
-                            <a href="checkout.html"><button type="button" class="btn btn-success btn-md btn-block" id="botao">Confirmar</button></a>
-
+                        <div class="col-lg-2">
+                            <a href="checkout.html"><button type="button" class="btn btn-success btn-md btn-block"
+                                    id="botao">Confirmar</button></a>
                         </div>
-
                     </div>
-
-
                 </div>
-
             </div>
         </div>
-
     </div>
     </div>
-
     </div>
-
 
     <!-- FOOTER -->
     <footer>
@@ -253,7 +339,6 @@
                 <p>(11)91234-5678</p>
             </div>
         </div>
-
         <p class="copyright">copyright &copy 2020</p>
 
     </footer>
