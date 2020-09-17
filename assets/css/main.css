@@ -26,27 +26,6 @@ header, footer {
     width: 100%;
 }
 
-
-.login{
-    max-height: 50px;
-    height: 50px;
-    width: 90px;
-    position: absolute;
-    top: 3px;
-    left: 350px;
-
-}
-
-
-.cart{
-    max-height: 100px;
-    height: 70px;
-    width: 140px;
-    position: absolute;
-    top: 0px;
-    left: 570px;
-}
-
 /* HEADER */
 .meuHeader {
     background-color: black;
