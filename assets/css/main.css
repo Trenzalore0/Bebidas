@@ -50,6 +50,33 @@ header, footer {
 
 }
 
+.acoes {
+    position: absolute;
+    right: 0;
+}
+
+.acoes * {
+    margin: 5px;
+}
+
+.logoUser {
+    width: 50px;
+    height: 50px;
+    background-image: url(../img/user_icon.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.logoCar {
+    width: 50px;
+    height: 50PX;
+    background-image: url(../img/cart_icon.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 170%;
+}
+
 .separator {
     width: 100%;
     height: 1px;
