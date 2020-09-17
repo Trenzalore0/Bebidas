@@ -1,0 +1,29 @@
+.hp2{
+    position: relative;
+    left: 950px;
+    top: -40px;
+    border-radius: 20px;
+}
+
+.checkbox_filtros{
+    color: white;
+    text-align: left;
+    width: 200px;
+}
+
+.sublin{
+    text-decoration: underline;
+}
+
+
+.filter-products{
+    color: #fff;
+    background-color: #000;
+    text-align: center;
+    border-radius: 15px;
+    width: 200px;
+}
+
+.form-check{
+    margin-bottom: 5px;
+}

@@ -12,6 +12,12 @@ h1 {
     align-items: center;
 }
 
+.right{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
 header, footer {
     color: white;
     background-color: #660033;
@@ -21,8 +27,9 @@ header, footer {
 }
 
 /* HEADER */
-.meuHeader {
+.Header {
     background-color: black;
+    position: relative;
 }
 
 .logo {
@@ -51,11 +58,11 @@ header, footer {
 
 
 /* FOOTER */
-.meuFooter {
+.Footer {
     justify-content: space-around;
 }
 
-.meuFooter *,
+.Footer *,
 .copyright {
     text-align: center;
     margin: 0;

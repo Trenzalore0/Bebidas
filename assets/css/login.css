@@ -1,0 +1,59 @@
+h1{
+    color: #ffffff;
+}
+
+#formulario{
+    border-radius: 30px;
+    background-color:rgba(219, 212, 212, 0.589);
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+#container1, #container2
+{
+    background-color: #660033;
+    color: white;
+    border-radius: 15px;
+    box-sizing: border-box;
+    display: inline-flexbox;
+    text-align: center;
+    align-self: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 250px;
+    align-items: center;
+    flex-direction: column;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: white;
+    text-decoration: none;
+}
+
+.imagem_centro{
+    background-image: url(../img/taca_uvas.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 42%;
+}
+
+input{
+    border-radius: 20px;
+}
+
+.form-control{
+    border-radius: 20px;
+}
+
+.container{
+
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
