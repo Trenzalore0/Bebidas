@@ -45,7 +45,8 @@
 .valortotal{
     border-color: transparent;
     background-color: transparent;
-    display: block;
+    display: inline-block;
+    justify-content: center;
 
     
 }

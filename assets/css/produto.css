@@ -3,10 +3,11 @@ section {
 }
 
 article {
-    margin-left: 100px;
+    margin-left: 50px;
     margin-top: 60px;
     width: 65%;
     color: white;
+    /* padding: 60px; */
 }
 
 .card {
@@ -32,6 +33,6 @@ strike {
 
 #sectionproduto {
     margin-top: 100px;
-    margin-left: 40px;
+    margin-left: 20px;
     
 }
