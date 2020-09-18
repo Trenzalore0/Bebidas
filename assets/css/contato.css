@@ -4,6 +4,21 @@ h1, h3 {
 }
 
 #central {
-    margin-top: 20px;
+    margin-top: 100px;
     margin-bottom: 20px;
+    background-color:rgba(219, 212, 212, 0.589);
+    border-radius: 30px;
+    margin-left: 15%;
+    
 }
+
+#container{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#teste-botao{
+    background-color: #660033;
+    margin-left: 25%;
+}
+
