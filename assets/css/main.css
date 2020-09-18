@@ -26,6 +26,7 @@ header, footer {
     width: 100%;
 }
 
+
 /* HEADER */
 .Header {
     background-color: black;
@@ -40,14 +41,13 @@ header, footer {
     border-bottom: 1px solid #fff;
 }
 
-.logotipo{
+.logotipo {
     width: 300px;
     height: 50px;
     background-image: url(../img/desvinho_logo.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 70%;
-
 }
 
 .acoes {
@@ -126,7 +126,7 @@ header, footer {
     display: none;
 }
 
-.lupa_icon{
+.lupa_icon {
     background-image: url(../img/lupa_icon.png);
     background-size: 400%;
     background-repeat: no-repeat;
