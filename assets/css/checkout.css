@@ -1,12 +1,12 @@
 .flex-container {
     width: 95%;
-    height: 700px;
+    height: 800px;
     display: flex;
     background-color: rgb(200, 207, 214);
-    justify-content: center;
     align-items: center;
     border-radius: 30px;
     margin: auto;
+    flex-direction: row;
 }
 
 .container {
@@ -24,7 +24,7 @@
     margin: 10px;
     padding: 20px;
     width: 500px;
-    height: 500px;
+    height: 600px;
     border-radius: 10px;
 }
 
@@ -89,11 +89,11 @@ h3 {
 }
 
 .lb {
-    margin-top: 50px;
+    margin-top: 100px;
 }
 
 .img {
-    margin-top: 0px;
+    margin-top: 50px;
 }
 
 .formulariocartao {
