@@ -12,6 +12,12 @@ h1 {
     align-items: center;
 }
 
+.right{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
 header, footer {
     color: white;
     background-color: #660033;
@@ -20,9 +26,11 @@ header, footer {
     width: 100%;
 }
 
+
 /* HEADER */
-.meuHeader {
+.Header {
     background-color: black;
+    position: relative;
 }
 
 .logo {
@@ -33,14 +41,40 @@ header, footer {
     border-bottom: 1px solid #fff;
 }
 
-.logotipo{
+.logotipo {
     width: 300px;
     height: 50px;
     background-image: url(../img/desvinho_logo.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 70%;
+}
 
+.acoes {
+    position: absolute;
+    right: 0;
+}
+
+.acoes * {
+    margin: 5px;
+}
+
+.logoUser {
+    width: 50px;
+    height: 50px;
+    background-image: url(../img/user_icon.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.logoCar {
+    width: 50px;
+    height: 50PX;
+    background-image: url(../img/cart_icon.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 170%;
 }
 
 .separator {
@@ -51,11 +85,15 @@ header, footer {
 
 
 /* FOOTER */
-.meuFooter {
+.Footer {
     justify-content: space-around;
 }
 
-.meuFooter *,
+.textos, .telefone {
+    line-height: normal;
+}
+
+.Footer *,
 .copyright {
     text-align: center;
     margin: 0;
@@ -88,7 +126,7 @@ header, footer {
     display: none;
 }
 
-.lupa_icon{
+.lupa_icon {
     background-image: url(../img/lupa_icon.png);
     background-size: 400%;
     background-repeat: no-repeat;
