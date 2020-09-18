@@ -89,6 +89,10 @@ header, footer {
     justify-content: space-around;
 }
 
+.textos, .telefone {
+    line-height: normal;
+}
+
 .Footer *,
 .copyright {
     text-align: center;
