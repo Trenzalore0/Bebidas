@@ -1,5 +1,4 @@
-var radio = document.getElementById('radio');
+var radio = document.getElementById('radioc').value;
+var formulario = document.getElementById('formulariocartao');
 
-radio.addEventListener("click", function() {
-    alert("ai voce clickou em mim!")
-});
+var radiof = document.getElementsByName('input[name="radioc"]:checked').value;
