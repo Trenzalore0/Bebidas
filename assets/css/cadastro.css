@@ -1,4 +1,4 @@
-h1{
+h1 {
     color: #ffffff;
 }
 
@@ -6,31 +6,28 @@ h1{
     background-color: #660033;
     color: #ffffff;
     border-radius: 20px;
-    max-width: 300px;
- }
+    margin-left: 50%;
+}
 
-#formulario{
+#formulario {
     border-radius: 30px;
-    background-color:rgba(219, 212, 212, 0.589);
+    background-color: rgba(219, 212, 212, 0.589);
     justify-content: space-between;
     margin-top: 20px;
 }
 
-#container1, #container2{
+#container1, #container2 {
     background-color: #ffffff;
     border-radius: 15px;
     box-sizing: border-box;
-    margin: 10px;
-    }
-
-.form-control{
-        border-radius: 20px;
-}
-#container1{
-    margin-left: 16%;
+    width: 90%;
 }
 
-.container{
+.form-control {
+    border-radius: 20px;
+}
+
+.main {
     margin-top: 50px;
     margin-bottom: 50px;
 }
