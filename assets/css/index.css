@@ -18,6 +18,8 @@
   background-color: #000;
   text-align: center;
   border-radius: 15px;
+  flex-direction: row;
+  margin-bottom: 10px;
 }
 
 .product {
@@ -55,4 +57,8 @@
 
 .price-product{
   color: white;
+}
+
+.filter {
+  color: #fff;
 }

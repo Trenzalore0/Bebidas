@@ -4,8 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="./../css/main.css">
     <link rel="stylesheet" href="../css/checkout.css">
     <title>Checkout</title>
@@ -30,8 +29,7 @@
                         <a class="nav-link" href="index.html">Home</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
-                            aria-haspopup="true" aria-expanded="false">
+                        <a class="nav-link" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Todas as categorias
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
@@ -65,16 +63,13 @@
             </div>
         </nav>
     </section>
-    <button id="botao_tela_menor" class="navbar-toggler" type="button" data-toggle="collapse"
-        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-        aria-label="Toggle navigation">
+    <button id="botao_tela_menor" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon">Menu</span>
     </button>
-
-
-
     <div class="flex-container cima">
         <!-- CONTAINER ENDEREÇO DE ENTREGA-->
+
+
         <div class="ede">
 
             <h3>Endereço de Entrega</h3>
@@ -92,50 +87,78 @@
 
         <div class="modopg">
             <h3>Forma de Pagamento</h3>
-            <input type="radio" class="radio" id="radio" aria-label="Radio button for following text input">
+            <input type="radio" name="radiof" value="boleto" class="radio" id="radio" aria-label="Radio button for following text input">
             <label>Boleto</label>
             <br>
-            <input type="radio" class="radio2" aria-label="Radio button for following text input"> <label>Cartão de
-                crédito</label>
+            <input type="radio" name="radioc" value="cartao" id="radioc" aria-label="Radio button for following text input">
+            <label>Cartão de crédito</label>
             <br>
-            <img class="img" src="../img/visa.png" width="40px" height="40px" />
-            <img class="img" src="../img/master.png" width="40px" height="40px" />
-            <img class="img" src="../img/boleto.png" width="40px" height="40px" />
+            <form id="formulariocartao">
+                <label>Nº do cartão </label>
+                <input type="text-area" style=" text-align: center; border-radius: 10px; width: 300px; height:30px;" placeholder="0000-0000-0000-0000">
+                <label>Nome no cartão</label>
+                <input type="text-area" style="border-radius: 10px; width: 300px; height:30px;" placeholder="NOME ESCRITO NO CARTÃO">
+                <br>
+                <label>Validade</label><br><input type="text-area" style="border-radius: 10px; width:100px; height: 30px; text-align: center;" placeholder="mês/ano">
+                <br>
+                <label>CVV</label>
+                <br>
+                <input type="text-area" style="border-radius: 10px; width: 100px; height:30px; text-align: center;" placeholder="000">
+                <br>
+                <label>Quantidade de Parcelas</label>
+                <br>
+                <select style="border-radius: 15px; width: 300px;" class="custom-select" id="inputGroupSelect02">
+                    <option>1x sem juros</option>
+                    <option>2x sem juros</option>
+                    <option>3x sem juros</option>
+                    <option>4x sem juros</option>
+                    <option>5x sem juros</option>
+                    <option>6x sem juros</option>
+                    <option>7x sem juros</option>
+                    <option>8x sem juros</option>
+                    <option>9x sem juros</option>
+                    <option>10x sem juros</option>                    
+                </select>
+                <br>
+            </form>
+            <img class=" img " src="../img/visa.png " width="40px " height="40px" />
+            <img class="img " src="../img/master.png " width="40px " height="40px " />
+            <img class="img " src="../img/boleto.png " width="40px " height="40px " />
         </div>
 
 
-        <!-- CONTAINER FORMA DE PAGAMENTO-->
+        <!-- CONTAINER CONFIRMAR DADOS-->
 
 
         <div class="confirmadados">
             <h3>Confirmar Dados</h3>
             <label>Entrega:</label>
-            <div class="input-group mb-3">
-                <select style="border-radius: 15px;" class="custom-select" id="inputGroupSelect01">
+            <div class="input-group mb-3 ">
+                <select style="border-radius: 15px; " class="custom-select " id="inputGroupSelect01 ">
                     <option selected>Endereço cadastrado no sistema</option>
-                    <option value="1">R. numero um, nº1, cep: 00000-00</option>
+                    <option value="1 ">R. numero um, nº1, cep: 00000-00</option>
                 </select>
             </div>
             <label>Forma de Pagamento:</label>
-            <div class="input-group mb-3">
-                <select style="border-radius: 15px;" class="custom-select" id="inputGroupSelect01">
+            <div class="input-group mb-3 ">
+                <select style="border-radius: 15px; " class="custom-select " id="inputGroupSelect01 ">
                     <option selected>Opção Selecionada</option>
-                    <option value="1">Cartão de crédito</option>
-                    <option value="1">Boleto</option>
+                    <option value="1 ">Cartão de crédito</option>
+                    <option value="1 ">Boleto</option>
                 </select>
             </div>
 
             <label>Valor Frete:</label>
             <br>
-            <input type="text-area" style="border-radius: 10px; width: 200px; " placeholder="R$ 000,00">
+            <input type="text-area " style="border-radius: 10px; width: 200px; " placeholder="R$ 000,00 ">
             <br>
             <br>
             <label>Valor Total:</label>
             <br>
-            <input type="text-area" style="border-radius: 10px; width: 2    00px; " placeholder="R$ 000,00">
+            <input type="text-area " style="border-radius: 10px; width: 2 00px; " placeholder="R$ 000,00 ">
             <br>
-            <button type="button" class="btn btn-success btcc">Continuar Comprando</button>
-            <button type="button" class="btn btn-success btfc">Finalizar Compra</button>
+            <a href="../html/index.html"><button type="button" class="btn btn-success btcc ">Continuar Comprando</button></a>
+            <a href="../html/sucesso_compra.html"><button type="button " class="btn btn-success btfc ">Finalizar Compra</button></a>
         </div>
 
     </div>
@@ -146,28 +169,28 @@
 
     <!-- FOOTER -->
     <footer>
-        <div class="center meuFooter">
-            <div class="textos">
-                <p>Lorem ipsum dolor sit amet consectetur dicta quisquam! Tenetur labore esse dolor quidem beatae
-                    consequuntur cum.</p>
-                <pb>Lorem, ipsum dolor sit amet consectetur a autem dolorum culpa modi tenetur, velit magni. Ad ab quod
-                    eius?
+        <div class="center meuFooter ">
+            <div class="textos ">
+                <p>Lorem ipsum dolor sit amet consectetur dicta quisquam! Tenetur labore esse dolor quidem beatae consequuntur cum.</p>
+                <pb>Lorem, ipsum dolor sit amet consectetur a autem dolorum culpa modi tenetur, velit magni. Ad ab quod eius?
                     </p>
             </div>
-            <div class="telefone">
+            <div class="telefone ">
                 <p>(11)91234-5678</p>
                 <p>(11)91234-5678</p>
             </div>
         </div>
 
-        <p class="copyright">copyright &copy 2020</p>
+
+        <p class="copyright ">copyright &copy 2020</p>
     </footer>
 
 
 
 </body>
 
-<script src="../js/app.js"></script>
+
+<script src="../js/app.js "></script>
 
 
 </html>
