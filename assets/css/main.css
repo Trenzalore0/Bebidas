@@ -12,7 +12,8 @@ h1 {
     align-items: center;
 }
 
-header, footer {
+header,
+footer {
     color: white;
     background-color: #660033;
     box-sizing: border-box;
@@ -20,7 +21,9 @@ header, footer {
     width: 100%;
 }
 
+
 /* HEADER */
+
 .meuHeader {
     background-color: black;
 }
@@ -33,14 +36,13 @@ header, footer {
     border-bottom: 1px solid #fff;
 }
 
-.logotipo{
+.logotipo {
     width: 300px;
     height: 50px;
     background-image: url(../img/desvinho_logo.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 70%;
-
 }
 
 .separator {
@@ -51,6 +53,7 @@ header, footer {
 
 
 /* FOOTER */
+
 .meuFooter {
     justify-content: space-around;
 }
@@ -88,7 +91,7 @@ header, footer {
     display: none;
 }
 
-.lupa_icon{
+.lupa_icon {
     background-image: url(../img/lupa_icon.png);
     background-size: 400%;
     background-repeat: no-repeat;
