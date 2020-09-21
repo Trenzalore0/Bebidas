@@ -2,12 +2,16 @@
     background-color: grey;
     margin-top: 70px;
     margin-bottom: 20px;
-    height: 500px;
+    height: 540px;
+    border-radius: 20px;
 }
 
 #topo{
     background-color: #660033;
     color: #fff;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    
 }
 
 #carrinho{
@@ -18,7 +22,10 @@
 
 #base{
     background-color: #660033;
-    height: 70px;
+    height: 110px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    flex-direction: row;
 }
 
 .card{
@@ -29,4 +36,31 @@
 #nomeProduto{
     text-align: center;
     margin-top: 20px;
+    color: black;
 }
+
+#botao{
+    border-radius: 20px;
+}
+.valortotal{
+    border-color: transparent;
+    background-color: transparent;
+    display: block;
+
+    
+}
+
+.valor-unit{
+    border: none;
+    border-color: white;
+    background-color: transparent;
+}
+.valortotal::placeholder{
+    color: white;
+    text-align: left;
+}
+::placeholder{
+    color: black;
+    text-align: center;
+}
+
