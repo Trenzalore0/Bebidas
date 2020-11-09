@@ -6,20 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="./../css/main.css">
-    <title>Home</title>
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/pedido.css">
+    <title>Cadastro</title>
 </head>
 
 <body>
 
-    <!-- HEADER  -->
-    <header class="Header">
+    <header class="meuHeader">
         <div class="center logo">
-            <h1>Desvinho</h1>
+            <div class="center logotipo"></div>
         </div>
     </header>
 
-    <!-- NAVBAR -->
     <section id="barraNav">
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <a class="navbar-brand" href="#"></a>
@@ -58,7 +57,7 @@
                 </ul>
                 <form class="form-inline my-2 my-lg-0">
                     <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Search">
-                    <button class=" lupa_icon btn btn-outline-dark my-2 my-sm-0" type="submit"></button>
+                    <button class="lupa_icon btn btn-outline-dark my-2 my-sm-0" type="submit"></button>
 
                 </form>
             </div>
@@ -70,18 +69,117 @@
         <span class="navbar-toggler-icon">Menu</span>
     </button>
 
+    <div class="container" id="principal">
+        <div class="row">
+            <div class="col-12">
+                <h1 class="center">Meus Pedidos</h1>
+                <div class="container" id="topo">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="row">
+                                <div class="col-3">
 
-    <div style="width: 1000px; height: 1000px; background-color: #3d3c3c;"></div>
+                                </div> 
+                                
+                                <!-- <div class="col-9" id="labels">
+                                    <label>Numero Pedido</label>
+                                    <label>Vlr Pedido</label>
+                                    <label>Data Pedido</label>
+                                    <label>Status</label>
+                                </div> -->
+                                <div class="col-2 center ">
+                                    <h5>Nr Pedido</h5>
+                                </div>
+                                <div class="col-2 center">
+                                    <h5>Vlr Pedido</h5>
+                                </div>
+                                <div class="col-2 center">
+                                    <h5>Data Pedido</h5>
+                                </div>
+                                <div class="col-2 center">
+                                    <h5>Status</h5>
+                                </div>
+                          
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-3" id="menu_lat">
+                            <br>
+                            <li>Meu Cadastro</li>
+                            <hr>
+                            <li>Meus Pedidos</li>
+                            <hr>
+                            <li>Endereco</li>
+                            <hr>
+                            <li>Alterar senha</li>
+                            <hr>
+                            <li>Logout</li>
+                            <hr>
+                        </div>
 
 
 
-    <!-- FOOTER -->
+                        <div class="col-9" id="pedido">
+                            <br>
+                            <div class="row">
+                                <div class="col-12 center" id="labels">
+                                    <label>12345</label>
+                                    <label>R$ 120,00</label>
+                                    <label>28/7/2019</label>
+                                    <label>Finalizado</label>
+                                </div>
+                                
+                            </div>
+                            <hr>
+                            
+                                <div class="row">
+                                    <div class="col-12 center" id="labels">
+                                        <label>13401</label>
+                                        <label>R$ 550,00</label>
+                                        <label>10/3/2020</label>
+                                        <label>Cancelado</label>
+                                    </div>
+                                    
+                                </div>
+
+                            <hr>
+                            <div class="row">
+                                <div class="col-12 center" id="labels">
+                                    <label>14599</label>
+                                    <label>R$ 800,00</label>
+                                    <label>05/9/2020</label>
+                                    <label>Pendente</label>
+                                </div>
+                                
+                            </div>
+                            
+                        </div>
+
+
+                    </div>
+                </div>
+
+                <div class="container" id="base">
+                    <div class="row">
+                        <div class="col-12">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <footer>
-        <div class="center Footer">
+        <div class="center meuFooter">
             <div class="textos">
                 <p>Lorem ipsum dolor sit amet consectetur dicta quisquam! Tenetur labore esse dolor quidem beatae
                     consequuntur cum.</p>
-                <pb>Lorem, ipsum dolor sit amet consectetur a autem dolorum culpa modi tenetur, velit magni. Ad ab quod
+                <p>Lorem, ipsum dolor sit amet consectetur a autem dolorum culpa modi tenetur, velit magni. Ad ab quod
                     eius?</p>
             </div>
             <div class="telefone">

@@ -1,0 +1,51 @@
+#principal{
+    background-color: grey;
+    margin-top: 70px;
+    margin-bottom: 20px;
+    /* height: 460px; */
+    border-radius: 20px;
+    padding-bottom: 10px;
+}
+
+#topo{
+    background-color: #660033;
+    color: #fff;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+   
+    
+}
+
+#pedido{
+    background-color: white;
+    overflow: auto;
+    height: 330px;
+    
+}
+
+#base{
+    background-color: #660033;
+   
+    height: 30px; 
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+}
+#menu_lat{
+    background-color: #660033;
+    overflow: auto;
+    height: 330px;
+    color: white;
+    font-size: 20px;
+
+
+}
+
+#labels
+{
+  justify-content: space-around;
+}
+
+h5{
+    justify-content: space-around;
+}
